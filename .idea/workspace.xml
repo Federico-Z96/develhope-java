@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4512875c-dfa6-4c7d-9867-dfa4de982f6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/es5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/es12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/es6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,22 +43,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.es5">
-    <configuration name="es1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.es1" />
-      <module name="esercizi piattaforma" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="es2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.es2" />
+  <component name="RunManager" selected="Application.es12">
+    <configuration name="es12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.es12" />
       <module name="esercizi piattaforma" />
       <extension name="coverage">
         <pattern>
@@ -108,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="es6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.es6" />
+      <module name="esercizi piattaforma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.es12" />
+        <item itemvalue="Application.es6" />
         <item itemvalue="Application.es5" />
         <item itemvalue="Application.es4" />
         <item itemvalue="Application.es3" />
-        <item itemvalue="Application.es2" />
-        <item itemvalue="Application.es1" />
       </list>
     </recent_temporary>
   </component>
