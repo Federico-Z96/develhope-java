@@ -50,11 +50,13 @@ public class es5 {
     private static void exercise3() {
         System.out.println("\nExercise 3:");
 
-        int totalMoney = 50;
+        int totalMoney = 54;
         int costPerBurger = 9;
 
-        int totalBuger =totalMoney % costPerBurger;
-        System.out.println("Remainder=" + totalBuger );
+        int totalBuger = totalMoney / costPerBurger;
+        int remainder = totalMoney % costPerBurger;
+        System.out.println("Remainder=" + remainder );
+        System.out.println(totalBuger);
     }
 
     /**

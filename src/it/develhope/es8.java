@@ -62,16 +62,18 @@ public class es8 {
     private static void exercise3() {
         System.out.println("\nExercise 3:");
         double ourDouble = 2.5;
-        if (ourDouble > 2.5) {
+        if (ourDouble >= 2.5) {
             System.out.println("Greater than");
-        } else if (ourDouble < 2.5) {
-            int x = 0;
-            x += 1;
-            System.out.println("Still less than");
-        }
-        if (ourDouble >= 2.5) ;
-        {
-            System.out.println("Now greater than");
+        } else {
+            ourDouble += 1;
+            if (ourDouble < 2.5){
+                System.out.println("sill less than");
+            }
+            else {
+                System.out.println("Now greater than");
+
+            }
+
         }
     }
 
@@ -92,10 +94,12 @@ public class es8 {
 
         int employeeAge = 30;
 
-        if (employeeAge >= 65) {
-            System.out.println("retired");
-        } else if (employeeAge >= 35) {
+        if (employeeAge >= 65){
+        System.out.println("retired");
+    }
+        else if (employeeAge >= 35) {
             System.out.println("Experienced Worker");
+
         } else if (employeeAge >= 18 ) {
             System.out.println("New Worker");
         } else  {
