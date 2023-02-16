@@ -29,7 +29,7 @@ public class es12 {public static void main(String[] args) {
         double yourScore = 0;
 
         // Start your code here
-        yourScore = Math.min(text.length(), 20);
+        yourScore =Math.min(text.length(), 20);
 
         if (text.contains("a")){
             yourScore += -5;
@@ -40,6 +40,11 @@ public class es12 {public static void main(String[] args) {
         if (yourScore > 20){
             yourScore *= 2;
         }
+
+
+
+
+
         // End it here
 
         System.out.print("Expected score=" + expectedScore +", actual score=" + yourScore);
