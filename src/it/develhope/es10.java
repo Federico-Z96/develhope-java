@@ -70,10 +70,27 @@ public class es10 {public static void main(String[] args) {
             case (19) :
                 System.out.println("This the largest prime number under 20");
             break;
-
+            case (17) :
+                System.out.println("This is the 2nd largest prime number under 20");
+                break;
+            case (13) :
+                System.out.println("This is the 3th largest prime number under 20");
+                break;
+            case (7) :
+                System.out.println("This is the 5th largest prime number under 20");
+                break;
+            case (5) :
+                System.out.println("This is the 6th largest prime number under 20");
+                break;
+            case (3) :
+                System.out.println("This is the 7th largest prime number under 20");
+                break;
+            case (2) :
+                System.out.println("This is the smallest number under 20");
+                break;
             case (11) :
                 System.out.println("This is the 4th largest prime number under 20");
-            break;
+                break;
 
             default:
                 System.out.println("Invalid entry");
@@ -96,6 +113,12 @@ public class es10 {public static void main(String[] args) {
         int inputNumber = 11;
 
         switch (inputNumber) {
+            case(2) -> System.out.println("This is the smallest number under 20");
+            case (3) -> System.out.println("This is the 7th largest prime number under 20");
+            case (5) -> System.out.println("This is the 6th largest prime number under 20");
+            case (7) -> System.out.println("This is the 5th largest prime number under 20");
+            case (13) -> System.out.println("This is the 3th largest prime number under 20");
+            case (17) -> System.out.println("This is the 2nd largest prime number under 20");
 
             case (19) -> System.out.println("This the largest prime number under 20");
 

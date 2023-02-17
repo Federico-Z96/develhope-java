@@ -82,8 +82,13 @@ public class es9 {public static void main(String[] args) {
         double ourTestScore = 8;
         double maxTestScore = 10;
         boolean isTestRetry = true;
+        double test = ourTestScore * maxTestScore;
 
-        if (ourTestScore >= 0.9 * maxTestScore){
+
+        if (isTestRetry && test >= 70 ) {
+            System.out.println("C");
+        } else {
+            if (ourTestScore >= 0.9 * maxTestScore){
             System.out.println("A");
         } else if (ourTestScore >= 0.8 * maxTestScore) {
             System.out.println("B");
@@ -92,8 +97,9 @@ public class es9 {public static void main(String[] args) {
         } else if (ourTestScore >= 0.6 * maxTestScore) {
             System.out.println("D");
         }
-        else if (isTestRetry == true){
-            System.out.println("C");
+
+
+
         }
     }
 
