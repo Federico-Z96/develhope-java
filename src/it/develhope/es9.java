@@ -29,7 +29,7 @@ public class es9 {public static void main(String[] args) {
         boolean isWarm = temperatureInCelsius >= isWarmTemperatureInCelsius;
         boolean wearingShorts = true;
 
-        if (isWarm && wearingShorts){
+        if (!(isWarm ^ wearingShorts))  {
             System.out.println("Comfortable clothes");
         }
         else {
@@ -88,13 +88,13 @@ public class es9 {public static void main(String[] args) {
         if (isTestRetry && test >= 70 ) {
             System.out.println("C");
         } else {
-            if (ourTestScore >= 0.9 * maxTestScore){
+            if (ourTestScore >= 90 % maxTestScore){
             System.out.println("A");
-        } else if (ourTestScore >= 0.8 * maxTestScore) {
+        } else if (ourTestScore >= 80 % maxTestScore) {
             System.out.println("B");
-        } else if (ourTestScore >= 0.7 * maxTestScore) {
+        } else if (ourTestScore >= 70 % maxTestScore) {
             System.out.println("C");
-        } else if (ourTestScore >= 0.6 * maxTestScore) {
+        } else if (ourTestScore >= 60 % maxTestScore) {
             System.out.println("D");
         }
 
