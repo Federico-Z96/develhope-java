@@ -23,8 +23,9 @@ public class es14 {
         int yearsPast = 0;
         double interestGainedThisYearEuros = 0;
 
+         //while (currentInvestmentValueEuros <= 100_000) {
         while (currentInvestmentValueEuros <= 15000 || yearsPast <= 5) {
-            System.out.println("Investment value = €" + currentInvestmentValueEuros + " after " + yearsPast++ + " years" +
+        System.out.println("Investment value = €" + currentInvestmentValueEuros + " after " + yearsPast++ + " years" +
                     ", interest this year €" + interestGainedThisYearEuros);
             double previousYearsInvestment = currentInvestmentValueEuros;
             currentInvestmentValueEuros = currentInvestmentValueEuros * perYearMultiplier;
