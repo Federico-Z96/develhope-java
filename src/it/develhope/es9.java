@@ -79,24 +79,28 @@ public class es9 {public static void main(String[] args) {
      */
     private static void exercise3() {
         System.out.println("\nExercise 3 - Test Grader:");
-        double ourTestScore = 8;
+        double ourTestScore = 7;
         double maxTestScore = 10;
-        boolean isTestRetry = true;
+        boolean isTestRetry = false;
         double test = ourTestScore * maxTestScore;
 
 
         if (isTestRetry && test >= 70 ) {
             System.out.println("C");
         } else {
-            if (ourTestScore >= 90 % maxTestScore){
+            if (ourTestScore >= 90 / maxTestScore){
             System.out.println("A");
-        } else if (ourTestScore >= 80 % maxTestScore) {
+        } else if (ourTestScore == 80 / maxTestScore) {
             System.out.println("B");
-        } else if (ourTestScore >= 70 % maxTestScore) {
+        } else if (ourTestScore == 70 / maxTestScore) {
             System.out.println("C");
-        } else if (ourTestScore >= 60 % maxTestScore) {
+        } else if (ourTestScore == 60 / maxTestScore) {
             System.out.println("D");
+
         }
+            else {
+                System.out.println("F");
+            }
 
 
 

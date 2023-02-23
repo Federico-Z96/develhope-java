@@ -6,6 +6,7 @@ public class esArray {public static void main(String[] args) {
     exercise1();
     exercise2();
     exercise3();
+
 }
 
     /**

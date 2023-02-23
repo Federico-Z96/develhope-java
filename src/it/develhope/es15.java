@@ -40,7 +40,7 @@ public class es15 {
 
         System.out.println(convertToFahrenheit(30));
     }
-        public static String convertToFahrenheit ( double celsius){
+         private static String convertToFahrenheit ( double celsius){
             double fahrenheit = ((celsius * 9) / 5) + 32;
             return celsius + " Celsius is " + fahrenheit + " fahrenheit";
 
@@ -104,6 +104,6 @@ public class es15 {
     }
     static void lunch(String lunchType,String description,double myLunchPrice,int weightGrams){
         System.out.println("a price of " + lunchType +" is " + myLunchPrice + " it isn't cheapest, but is a " +
-                description + "the weight of this sandwich is " + weightGrams + "grams");
+                description + ", the weight of this sandwich is " + weightGrams + " grams");
     }
 }
