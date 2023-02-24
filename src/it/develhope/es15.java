@@ -39,8 +39,9 @@ public class es15 {
     */
 
         System.out.println(convertToFahrenheit(30));
+        System.out.println(convertToFahrenheit(15));
     }
-         private static String convertToFahrenheit ( double celsius){
+         public static String convertToFahrenheit ( double celsius){
             double fahrenheit = ((celsius * 9) / 5) + 32;
             return celsius + " Celsius is " + fahrenheit + " fahrenheit";
 
@@ -76,14 +77,20 @@ public class es15 {
     public static String stringName(String name){
         name = name.toUpperCase();
         //name = name.trim();
+        //name = name.toUpperCase().trim();
         name = name.strip();
-        for (int i = 0; i < name.length(); i++)
-             {
-                 if (Character.isDigit(name.charAt(i))){
+
+        for (int i = 0; i < name.length(); i++) {
+                if (Character.isDigit(name.charAt(i))){
                      return "invalid";
 
                  }
         }
+        //if (name.matches(".*[0-9].*")) {
+        //    return "invalid";
+
+        //}
+
        return name;
     }
 

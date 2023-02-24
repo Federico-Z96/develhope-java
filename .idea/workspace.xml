@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4512875c-dfa6-4c7d-9867-dfa4de982f6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/es16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/OOP/exercise1/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/OOP/exercise1/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/OOP/exercise1/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/develhope/es15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/es15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/es9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/es9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/esArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/esArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/es16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/es16.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +48,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.es16">
-    <configuration name="es14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.es14" />
+  <component name="RunManager" selected="Application.Exercise">
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.OOP.exercise1.Exercise" />
       <module name="esercizi piattaforma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
+          <option name="PATTERN" value="it.develhope.OOP.exercise1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.es16" />
         <item itemvalue="Application.es15" />
         <item itemvalue="Application.es9" />
         <item itemvalue="Application.esArray" />
-        <item itemvalue="Application.es14" />
       </list>
     </recent_temporary>
   </component>
