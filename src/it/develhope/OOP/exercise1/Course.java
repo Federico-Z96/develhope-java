@@ -20,20 +20,27 @@ public class Course {
     int maxStudents;
     byte qualityRatingOutOf10;
 
-    ArrayList<Student> students = new ArrayList<Student>();
-    List<String> studentNames = Arrays.asList("Alice", "Aragon", "Alex");
-    List<Integer> studentAges = Arrays.asList(23, 31, 38);
-    String name;
-    int age;
+    ArrayList<Student> students = new ArrayList<>();
 
-    public Course(String name, int age){
-        this.name = name;
-        this.age = age;
+
+
+    public Course(String name){
+        this.courseName = name;
+
 
 
     }
-    Course student1 = new Course(studentNames.get(0), studentAges.get(0));
-    Course student2 = new Course(studentNames.get(1), studentAges.get(1));
-    Course student3 = new Course(studentNames.get(2), studentAges.get(2));
+
+    public double average(){
+        double sum = 0;
+
+        for(int i = 0; i < students.size(); i ++){
+            sum = sum + students.get(i).age;
+        }
+
+        double average = sum / students.size();
+        return average;
+    }
+
 
 }

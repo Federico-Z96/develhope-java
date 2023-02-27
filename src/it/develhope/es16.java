@@ -3,6 +3,8 @@ package it.develhope;
 import java.time.LocalDate;
 import java.time.Month;
 
+import static java.lang.String.valueOf;
+
 public class es16 {public static void main(String[] args) {
     exercise1();
     exercise3();
@@ -27,13 +29,17 @@ public class es16 {public static void main(String[] args) {
                 """;
 
         long questionableFundsEuro = 5_000_000_000l;
-        questionableFundsEuro = questionableFundsEuro + myBankBalanceEuro;
+        //questionableFundsEuro = questionableFundsEuro + myBankBalanceEuro;
         //long myBankBalance =myBankBalanceEuro;
+        long newBank = Long.parseLong(String.valueOf(myBankBalanceEuro)); //parseLong trasforma in long il valore di una stringa
+
+        newBank += questionableFundsEuro;
+
 
 
         //myBankBalance += questionableFundsEuro;
        // System.out.println(myBankBalance);
-        System.out.println("my bank balance is : " + questionableFundsEuro);
+        System.out.println("my bank balance is : " + newBank);
         System.out.println(suspiciousEmailMessage);//Add the questionable funds to your bank balance and print it out!
     }
 

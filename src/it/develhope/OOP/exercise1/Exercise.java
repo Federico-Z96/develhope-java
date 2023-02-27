@@ -1,5 +1,6 @@
 package it.develhope.OOP.exercise1;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -33,14 +34,12 @@ public class Exercise { public static void main(String[] args) {
         List<String> studentNames = Arrays.asList("Alice", "Aragon", "Alex");
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
 
-        // Use a for i loop
-       // try {
+
             for (int i = 0; i < studentNames.size(); i++) {
+
                 System.out.println(createNewStudent(studentNames.get(i), studentAges.get(i)));
             }
-       // }catch (IndexOutOfBoundsException e){
-         //   System.out.println("invalid index");
-        //}
+
     }
 
     private static Student createNewStudent(String name, Integer age) {
@@ -58,6 +57,7 @@ public class Exercise { public static void main(String[] args) {
         return student;
     }
 
+
     /*
      * 3: Finally lets edit our 'Course' class once more,
      *
@@ -73,18 +73,22 @@ public class Exercise { public static void main(String[] args) {
 
     private static void exercise3() {
         System.out.println("\nExercise 3:");
+        List<String> studentNames = Arrays.asList("Alice", "Aragon", "Alex");
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
+        ArrayList<Student> students = new ArrayList<>();
 
-        double sum = 0;
 
-        for(int i = 0; i < studentAges.size(); i ++){
-            sum = sum + studentAges.get(i);
+        for (int i = 0; i < studentNames.size(); i++) {
+
+            students.add(createNewStudent(studentNames.get(i),studentAges.get(i)));
         }
+        Course java = new Course("java");
+        java.students = students;
 
-        double avarage = sum / studentAges.size();
 
-        System.out.println(avarage);
+        System.out.println(java.average());
 
-        // Write your code here
+
     }
+
 }
