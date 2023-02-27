@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4512875c-dfa6-4c7d-9867-dfa4de982f6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/OOP/exercise2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/OOP/exercise2/exerciseOOP2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/OOP3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/OOP3/exerciseOOP3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/OOP/exercise1/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/OOP/exercise1/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/OOP/exercise1/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/OOP/exercise1/Exercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/OOP/exercise1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/OOP/exercise1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/es16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/es16.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.exerciseOOP2">
+  <component name="RunManager" selected="Application.exerciseOOP3">
     <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.OOP.exercise1.Exercise" />
       <module name="esercizi piattaforma" />
@@ -89,19 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="es9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.es9" />
-      <module name="esercizi piattaforma" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="exerciseOOP2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.OOP.exercise2.exerciseOOP2" />
       <module name="esercizi piattaforma" />
@@ -115,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exerciseOOP3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.OOP3.exerciseOOP3" />
+      <module name="esercizi piattaforma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.OOP3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exerciseOOP3" />
         <item itemvalue="Application.exerciseOOP2" />
         <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.es16" />
         <item itemvalue="Application.es15" />
-        <item itemvalue="Application.es9" />
       </list>
     </recent_temporary>
   </component>
