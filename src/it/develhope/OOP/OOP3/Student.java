@@ -1,4 +1,4 @@
-package it.develhope.OOP3;
+package it.develhope.OOP.OOP3;
 
 public class Student {
     private String name;

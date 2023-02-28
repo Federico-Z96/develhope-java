@@ -1,4 +1,4 @@
-package it.develhope.OOP3;
+package it.develhope.OOP.OOP3;
 
 public class exerciseOOP3 {
     public static void main(String[] args) {

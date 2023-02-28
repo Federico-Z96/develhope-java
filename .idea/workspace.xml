@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4512875c-dfa6-4c7d-9867-dfa4de982f6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/OOP3/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/OOP3/exerciseOOP3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,19 +57,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="es15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.es15" />
-      <module name="esercizi piattaforma" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="es16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.es16" />
       <module name="esercizi piattaforma" />
@@ -99,11 +84,24 @@
       </method>
     </configuration>
     <configuration name="exerciseOOP3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.OOP3.exerciseOOP3" />
+      <option name="MAIN_CLASS_NAME" value="it.develhope.OOP.OOP3.exerciseOOP3" />
       <module name="esercizi piattaforma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.OOP3.*" />
+          <option name="PATTERN" value="it.develhope.OOP.OOP3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exerciseOOP4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.OOP.OOP4.exerciseOOP4" />
+      <module name="esercizi piattaforma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.OOP.OOP4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,10 +112,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.exerciseOOP3" />
+        <item itemvalue="Application.exerciseOOP4" />
         <item itemvalue="Application.exerciseOOP2" />
         <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.es16" />
-        <item itemvalue="Application.es15" />
       </list>
     </recent_temporary>
   </component>
