@@ -19,6 +19,7 @@ public class Course {
     String courseName;
     int maxStudents;
     byte qualityRatingOutOf10;
+    int age;
 
     ArrayList<Student> students = new ArrayList<>();
 
