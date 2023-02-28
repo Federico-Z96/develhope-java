@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4512875c-dfa6-4c7d-9867-dfa4de982f6b" name="Changes" comment="esOOP3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/OOP/exercise1/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/OOP/exercise1/Course.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.exerciseOOP3">
+  <component name="RunManager" selected="Application.Exercise">
     <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.OOP.exercise1.Exercise" />
       <module name="esercizi piattaforma" />
@@ -112,10 +111,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.exerciseOOP3" />
         <item itemvalue="Application.exerciseOOP4" />
         <item itemvalue="Application.exerciseOOP2" />
-        <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.es16" />
       </list>
     </recent_temporary>
