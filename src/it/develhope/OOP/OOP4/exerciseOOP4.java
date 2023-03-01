@@ -15,14 +15,15 @@ public class exerciseOOP4 {
      */
     public static void exercise1() {
         System.out.println("Exercise 1:");
-        int luckyRolls = 30;
+
         int totalCount = 300;
         for (int i = 0; i < 100; i++) {
+            int luckyRolls = 30;
             while (rollD6() == 6) {
                 luckyRolls++;
             }
           totalCount += luckyRolls;
-           luckyRolls = 0;
+
         }
 
         System.out.println(totalCount);
@@ -69,9 +70,9 @@ public class exerciseOOP4 {
 
     public static void exercise4() {
         System.out.println("\nExercise 4:");
-        for (int week = 0; week < 52; week++) {
-            for (int day = 0; day < 7; day++) {
-                for (int hour = 0; hour < 24; hour++) {
+        for (int week = 0; week < NUMBER_OF_WEEKS; week++) {
+            for (int day = 0; day < DAY_OF_WEEK; day++) {
+                for (int hour = 0; hour <HOUR_OF_DAY ; hour++) {
                     System.out.println("Week " + week +", day " + day +", hour " + hour);
                }
            }

@@ -48,7 +48,7 @@ public class exerciseOOP2 {public static void main(String[] args) {
         new Student("Alice", 33),
         new Student("Bob"),
         new Student(33),
-         new Student()
+                new Student()
        );
     }
 }
