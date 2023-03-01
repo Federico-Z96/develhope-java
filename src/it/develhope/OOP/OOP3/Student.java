@@ -13,13 +13,14 @@ public class Student {
     }
 
     public void setName(String name) {
+        if (name == null) {
+            System.out.println("invalid name");
+        }
         this.name = name;
     }
 
     public String getSurname() {
-        if (surname == null) {
-            System.out.println("invalid name");
-        }
+
         return surname;
     }
 
@@ -50,6 +51,7 @@ public class Student {
     public void setColorHair(String colorHair) {
         this.colorHair = colorHair;
     }
+
 
     public String getColorEyes() {
         return colorEyes;

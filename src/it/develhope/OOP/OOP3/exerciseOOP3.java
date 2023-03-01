@@ -26,8 +26,9 @@ public class exerciseOOP3 {
         student1.setAge(21);
         student1.setColorHair("black");
         student1.setColorEyes("blue");
-        System.out.println("Name : " + student1.getName() +"Surname : " + student1.getSurname() + "Age is : " + student1.getAge()
-                +"color hair : " + student1.getColorHair() + "color eyes : " + student1.getColorEyes());
+        System.out.println("Name : " + student1.getName() +" Surname : " + student1.getSurname() +
+                " Age is : " + student1.getAge() +" color hair : " + student1.getColorHair() +
+                " color eyes : " + student1.getColorEyes());
     }
 
     /**
@@ -43,6 +44,18 @@ public class exerciseOOP3 {
     private static void exercise2() {
         System.out.println("\nExercise 2:");
 
+        Student student1 = new Student();
+        student1.setName(null);
+        student1.setSurname(null);
+        student1.setAge(21);
+        student1.setColorHair("black");
+        student1.setColorEyes("blue");
+
+
+
+
+        System.out.println(" Name : " + student1.getName() +" Surname : " + student1.getSurname() + " Age is : " + student1.getAge()
+                +" color hair : " + student1.getColorHair() + " color eyes : " + student1.getColorEyes());
         //Write your code here
     }
 
