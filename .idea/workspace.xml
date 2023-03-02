@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1be7aaa7-fe89-417a-aa3d-c0164d894aba" name="Changes" comment="esOOP1">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/OOP/exercise2/classe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1be7aaa7-fe89-417a-aa3d-c0164d894aba" name="Changes" comment="esOOP1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
