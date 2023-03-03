@@ -15,8 +15,11 @@ public class Student {
     public void setName(String name) {
         if (name == null) {
             System.out.println("invalid name");
+        } else {
+            this.name = name;
         }
-        this.name = name;
+
+
     }
 
     public String getSurname() {
@@ -27,9 +30,11 @@ public class Student {
     public void setSurname(String surname) {
         if (surname == null) {
             System.out.println("invalid surname");
+        }else {
+            this.surname = surname;
         }
 
-        this.surname = surname;
+
     }
 
     public int getAge() {
@@ -39,9 +44,11 @@ public class Student {
     public void setAge(int age) {
 
         if (age < 10) {
-            System.out.println("invalid age: " + age);
+            System.out.println("invalid age: ");
+        } else {
+            this.age = age;
         }
-        this.age = age;
+
     }
 
     public String getColorHair() {

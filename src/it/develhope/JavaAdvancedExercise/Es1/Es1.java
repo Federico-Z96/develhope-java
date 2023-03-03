@@ -19,7 +19,7 @@ public class Es1 {
      */
     private static void exercise1() {
         System.out.println("Exercise 1: ");
-        Set<Integer> ourSet = new LinkedHashSet<>();
+        Set<Integer> ourSet = new HashSet<>();
 
         ourSet.add(1);
         ourSet.add(1);
@@ -136,6 +136,7 @@ public class Es1 {
         // 4a. Find the min value in the TreeSet with as few loops as possible,
         //     you can use `break;` to exit the loop once you've found it!
         int min = Integer.MAX_VALUE;
+
 
         for (Integer minNumbers : orderedNumbers) {
             min = Math.min(min, minNumbers);

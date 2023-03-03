@@ -45,9 +45,9 @@ public class exerciseOOP3 {
         System.out.println("\nExercise 2:");
 
         Student student1 = new Student();
-        student1.setName(null);
-        student1.setSurname(null);
-        student1.setAge(21);
+        student1.setName("Federico");
+        student1.setSurname("Zaccaria");
+        student1.setAge(-21);
         student1.setColorHair("black");
         student1.setColorEyes("blue");
 
