@@ -52,14 +52,10 @@ public class Es2Maps {public static void main(String[] args) {
         // Your code
 
         for(Map.Entry<String, Double> entry : menuCostsInEuro.entrySet()){
-            entry.getKey();
-            entry.getValue();
-            for (Double maxNum : menuCostsInEuro.values()) {
-                mostExpensiveCost = Math.max(mostExpensiveCost , maxNum);
-                
+            if (entry.getValue()> mostExpensiveCost){
+                mostExpensiveCost = entry.getValue();
+                mostExpensiveMenuItemName = entry.getKey();
             }
-            mostExpensiveMenuItemName = entry.getKey();
-        break;
         }
 
 
@@ -68,6 +64,19 @@ public class Es2Maps {public static void main(String[] args) {
         } else {
             System.out.println("2a. Incorrect!");
         }
+
+
+        /*for(Map.Entry<String, Double> entry : menuCostsInEuro.entrySet()){
+            entry.getKey();
+            entry.getValue();
+            for (Double maxNum : menuCostsInEuro.values()) {
+                mostExpensiveCost = Math.max(mostExpensiveCost , maxNum);
+
+            }
+            mostExpensiveMenuItemName = entry.getKey();
+            break;
+        }*/
+
     }
 
     /**
@@ -88,8 +97,8 @@ public class Es2Maps {public static void main(String[] args) {
         int totalWeight = 0;
         // 3a. Use a for loop with fruitWeights.values() and sum up the total weight
 
-        for (Integer total : fruitWeights.values()) {
-            totalWeight = totalWeight + total;
+        for (Map.Entry<String, Integer> entry : fruitWeights.entrySet()) {
+            totalWeight += entry.getValue();
 
         }
 
