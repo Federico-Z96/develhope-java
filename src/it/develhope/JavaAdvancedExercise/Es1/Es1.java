@@ -136,6 +136,7 @@ public class Es1 {
         // 4a. Find the min value in the TreeSet with as few loops as possible,
         //     you can use `break;` to exit the loop once you've found it!
         int min = Integer.MAX_VALUE;
+        System.out.println(orderedNumbers);
 
 
         for (Integer minNumbers : orderedNumbers) {

@@ -90,40 +90,40 @@ public class Es3Collection {public static void main(String[] args) {
      *    and explain why you chose that data structure.
      *
      *    1 - You want to store the students in order of their arrival
-     *    Answer:
+     *    Answer:List
      *
      *    2 - You want to store the students in a class and their grades
-     *    Answer:
+     *    Answer: Maps
      *
      *    3 - You want to store the countries in the world in order of age
-     *    Answer:
+     *    Answer:TreeMap
      *
      *    4 - You want to store the products available for purchase in an online store, along with their corresponding prices.
-     *    Answer:
+     *    Answer:HashMap
      *
      *    5 - You want to store the employees at a company in the order you added them
-     *    Answer:
+     *    Answer:LinkedSet
      *
      *    6 - You want to store the cities in a particular state, along with their populations.
-     *    Answer:
+     *    Answer:HashMap
      *
      *    7 - You want to store the books in a library, along with their authors and publication dates.
-     *    Answer:
+     *    Answer:Set
      *
      *    8 - You want to store the courses offered at a university, along with the professors teaching each course.
-     *    Answer:
+     *    Answer:HashMap
      *
      *    9 - You want to store the movies in a movie rental store, along with their ratings and release dates.
-     *    Answer:
+     *    Answer:Set
      *
      *    10 - You want to store the flights available for booking on an airline, along with their destinations and departure times.
-     *    Answer:
+     *    Answer:Set
      *
      *    11 - You want to store the articles on a news website, along with their titles and publication dates.
-     *    Answer:
+     *    Answer:List
      *
      *    12 - You want to store the songs in a music streaming service, along with their artists and album names.
-     *    Answer:
+     *    Answer:Set
      */
 
 
