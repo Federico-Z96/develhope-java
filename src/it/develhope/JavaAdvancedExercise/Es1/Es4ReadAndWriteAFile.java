@@ -33,18 +33,21 @@ public class Es4ReadAndWriteAFile { private static final Path MY_PATH = Paths.ge
                 The quick brown fox jumps over the lazy dog
                 """;
 
+
+
         try {
-            Files.deleteIfExists(MY_PATH);
+            //Files.deleteIfExists(MY_PATH);
             Files.createFile(MY_PATH);
             Files.writeString(MY_PATH,myString);
-            System.out.println(Files.readString(MY_PATH));
+           System.out.println(Files.readString(MY_PATH));
+
 
 
             // Your code here
         } catch (Exception exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();
-            //System.exit(0);
+            System.exit(0);
         }
     }
 
@@ -57,6 +60,7 @@ public class Es4ReadAndWriteAFile { private static final Path MY_PATH = Paths.ge
         System.out.println("\nExercise 2: ");
         try {
             // Your code here
+            Files.readString(MY_PATH);
             System.out.println(Files.readString(MY_PATH));
         } catch (Exception exception) {
             System.err.println("There was an error!");
@@ -75,14 +79,17 @@ public class Es4ReadAndWriteAFile { private static final Path MY_PATH = Paths.ge
         System.out.println("\nExercise 3: ");
         // Write code here to read the file and return the number of lines "\n", string.split
 
-        List<String> lines = new ArrayList<>(List.of(Files.readString(MY_PATH).split("\n")));
+
         try {
             // Your code here
+             List<String> lines = new ArrayList<>(List.of(Files.readString(MY_PATH).split("\n")));
             int count = 0;
             for (String line : lines) {
                 count++;
+
             }
             System.out.println(count);
+            System.out.println(lines.size());
 
 
         } catch (Exception exception) {
@@ -131,6 +138,7 @@ public class Es4ReadAndWriteAFile { private static final Path MY_PATH = Paths.ge
         try {
 
             // Your code
+            //Files.createDirectory(myDirectoryPath);
             Files.createDirectories(myDirectoryPath);
             Files.writeString(PATH_IN_A_FOLDER, "Why am I in a folder?");
             System.out.println(Files.readString(PATH_IN_A_FOLDER));

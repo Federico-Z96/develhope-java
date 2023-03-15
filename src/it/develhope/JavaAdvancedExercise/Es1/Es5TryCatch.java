@@ -92,10 +92,10 @@ public class Es5TryCatch {  public static void main(String[] args) {
         Double num1 = 10.0;
         String num2AsString = "0.0";
         try {
-            //double result = num1/Double.parseDouble(num2AsString);
-            // if(result == Double.POSITIVE_INFINITY || result == Double.NEGATIVE_INFINITY || Double.isNaN(result)){
-               // throw new ArithmeticException();
-            //}
+            double result = num1/Double.parseDouble(num2AsString);
+            if(result == Double.POSITIVE_INFINITY || result == Double.NEGATIVE_INFINITY || Double.isNaN(result)){
+               throw new ArithmeticException();
+            }
              System.out.println(num1 / Double.parseDouble(num2AsString));
 
         } catch (NumberFormatException numberFormatException) {

@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1be7aaa7-fe89-417a-aa3d-c0164d894aba" name="Changes" comment="esOOP1">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es5TryCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/ES6ENUMS/DaysOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/ES6ENUMS/Es6Enums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/ES6ENUMS/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/ES6ENUMS/Seasons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/ES6ENUMS/Trafficlight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es4ReadAndWriteAFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es4ReadAndWriteAFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es5TryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es5TryCatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -59,26 +66,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Es5TryCatch">
-    <configuration name="Es1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAdvancedExercise.Es1.Es1" />
-      <module name="esercizi piattaforma" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.JavaAdvancedExercise.Es1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Es6Enums">
     <configuration name="Es4ReadAndWriteAFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAdvancedExercise.Es1.Es4ReadAndWriteAFile" />
       <module name="esercizi piattaforma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.JavaAdvancedExercise.Es1.*" />
+          <option name="PATTERN" value="it.develhope.JavaAdvancedExercise.Es1.ES6ENUMS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +85,20 @@
       <module name="esercizi piattaforma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.JavaAdvancedExercise.Es1.*" />
+          <option name="PATTERN" value="it.develhope.JavaAdvancedExercise.Es1.ES6ENUMS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Es6Enums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAdvancedExercise.Es1.ES6ENUMS.Es6Enums" />
+      <module name="esercizi piattaforma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.JavaAdvancedExercise.Es1.ES6ENUMS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Es5TryCatch" />
+        <item itemvalue="Application.Es6Enums" />
         <item itemvalue="Application.Es4ReadAndWriteAFile" />
+        <item itemvalue="Application.Es5TryCatch" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.Exercise" />
-        <item itemvalue="Application.Es1" />
       </list>
     </recent_temporary>
   </component>
