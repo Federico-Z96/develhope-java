@@ -108,13 +108,9 @@ public class Es4ReadAndWriteAFile { private static final Path MY_PATH = Paths.ge
      */
     private static void exercise4() throws IOException {
         System.out.println("\nExercise 4: ");
-            List<String> words = new ArrayList<String>(List.of(Files.readString(MY_PATH).split("")));
+            List<String> words = List.of(Files.readString(MY_PATH).split(" "));
             try {
-                int count = 0;
-                for (int i = 0; i <= MY_PATH.toString().length(); i++) { // <= for count my words
-                    count++;
-                }
-                System.out.println(count);
+                System.out.println(words.size());
                 Files.delete(MY_PATH);
 
                 // Your code here
