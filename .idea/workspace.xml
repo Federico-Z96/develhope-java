@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1be7aaa7-fe89-417a-aa3d-c0164d894aba" name="Changes" comment="esOOP1">
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es9ClassiAstratte/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es9ClassiAstratte/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es9ClassiAstratte/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es9ClassiAstratte/Es9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es9ClassiAstratte/Guitar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es9ClassiAstratte/Instrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es9ClassiAstratte/Movable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es9ClassiAstratte/Piano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es9ClassiAstratte/Playable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es9ClassiAstratte/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es9ClassiAstratte/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es4ReadAndWriteAFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es4ReadAndWriteAFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es8InheritanceEreditarietà/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es8InheritanceEreditarietà/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es8InheritanceEreditarietà/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es8InheritanceEreditarietà/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es8InheritanceEreditarietà/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es8InheritanceEreditarietà/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es8InheritanceEreditarietà/Exercise8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es8InheritanceEreditarietà/Exercise8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es8InheritanceEreditarietà/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es8InheritanceEreditarietà/Fish.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -69,7 +75,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Es4ReadAndWriteAFile">
+  <component name="RunManager" selected="Application.Es9">
     <configuration name="Es4ReadAndWriteAFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAdvancedExercise.Es1.Es4ReadAndWriteAFile" />
       <module name="esercizi piattaforma" />
@@ -96,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Es9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAdvancedExercise.Es1.Es9ClassiAstratte.Es9" />
+      <module name="esercizi piattaforma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.JavaAdvancedExercise.Es1.Es9ClassiAstratte.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exercise8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAdvancedExercise.Es1.Es8InheritanceEreditarietà.Exercise8" />
       <module name="esercizi piattaforma" />
@@ -105,22 +124,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.exercise2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="esercizi piattaforma" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.develhope.JavaAdvancedExercise.Es1.Es7JUNIT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="it.develhope.JavaAdvancedExercise.Es1.Es7JUNIT" />
-      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAdvancedExercise.Es1.Es7JUNIT.CalculatorTest" />
-      <option name="METHOD_NAME" value="exercise2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Es4ReadAndWriteAFile" />
+        <item itemvalue="Application.Es9" />
         <item itemvalue="Application.Exercise8" />
+        <item itemvalue="Application.Es4ReadAndWriteAFile" />
         <item itemvalue="Application.Es6Enums" />
         <item itemvalue="JUnit.CalculatorTest.exercise3" />
-        <item itemvalue="JUnit.CalculatorTest.exercise2" />
       </list>
     </recent_temporary>
   </component>
