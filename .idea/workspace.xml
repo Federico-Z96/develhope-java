@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1be7aaa7-fe89-417a-aa3d-c0164d894aba" name="Changes" comment="esOOP1">
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es11/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es11/es11TernaryOperatorRecords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es12Strems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es8InheritanceEreditarietà/Exercise8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/develhope/JavaAdvancedExercise/Es1/Es8InheritanceEreditarietà/Exercise8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.es11TernaryOperatorRecords">
+  <component name="RunManager" selected="Application.Es12Strems">
     <configuration name="Es10Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAdvancedExercise.Es1.Es10OverridingToStringEquals.Es10Exercises" />
       <module name="esercizi piattaforma" />
@@ -81,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Es9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAdvancedExercise.Es1.Es9ClassiAstratte.Es9" />
+    <configuration name="Es12Strems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAdvancedExercise.Es1.Es12Strems" />
       <module name="esercizi piattaforma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.JavaAdvancedExercise.Es1.Es9ClassiAstratte.*" />
+          <option name="PATTERN" value="it.develhope.JavaAdvancedExercise.Es1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAdvancedExercise.Es1.Es8InheritanceEreditarietà.Exercise8" />
+    <configuration name="Es9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAdvancedExercise.Es1.Es9ClassiAstratte.Es9" />
       <module name="esercizi piattaforma" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.develhope.JavaAdvancedExercise.Es1.Es8InheritanceEreditarietà.*" />
+          <option name="PATTERN" value="it.develhope.JavaAdvancedExercise.Es1.Es9ClassiAstratte.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Es12Strems" />
         <item itemvalue="Application.es11TernaryOperatorRecords" />
         <item itemvalue="JUnit.CalculatorTest.exercise2" />
         <item itemvalue="Application.Es10Exercises" />
         <item itemvalue="Application.Es9" />
-        <item itemvalue="Application.Exercise8" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +195,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.nio.file.FileAlreadyExistsException" package="java.nio.file" />
           <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="3" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
