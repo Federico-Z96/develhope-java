@@ -85,4 +85,12 @@ public class Exercise8 { public static void main(String[] args) {
         System.out.println("The fastest animal is the " + fastestAnimal + " with a speed of " + maxSpeed + " meters per second.");
 
     }
+
+    /*if (dog.runSpeedMetersPerSecond() > fish.swimSpeedMetersPerSecond() && dog.runSpeedMetersPerSecond() > bird.flySpeedMetersPerSecond()){
+        System.out.println("il cane è l'animale piu veloce");
+    } else if (fish.swimSpeedMetersPerSecond() > bird.flySpeedMetersPerSecond() && fish.swimSpeedMetersPerSecond() > dog.runSpeedMetersPerSecond()){
+        System.out.println("il pesce è l'animale piu veloce");
+    } else if (bird.flySpeedMetersPerSecond() > dog.runSpeedMetersPerSecond() && bird.flySpeedMetersPerSecond() > fish.swimSpeedMetersPerSecond()){
+        System.out.println("L'uccello è l'animale piu veloce");
+    }*/
 }
