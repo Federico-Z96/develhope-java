@@ -21,7 +21,7 @@ public class Es9 {public static void main(String[] args) {
     private static void exercise1() {
         System.out.println("\nExercise 1: ");
         // Your code here
-        Circle cerchio = new Circle(5,10);
+        Circle cerchio = new Circle(5);
         Rectangle rettangolo = new Rectangle(5,10);
         System.out.println(cerchio.calculateArea());
         System.out.println(rettangolo.calculateArea());

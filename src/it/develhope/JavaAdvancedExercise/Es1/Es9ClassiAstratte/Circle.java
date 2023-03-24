@@ -1,11 +1,11 @@
 package it.develhope.JavaAdvancedExercise.Es1.Es9ClassiAstratte;
 
 public class Circle extends Shape{
-    double raggio;
 
-    public Circle(double width, double height){
-        super(width, height);
-        this.raggio = height /2;
+
+    public Circle(double raggio){
+        super(raggio, raggio);
+
     }
 
     @Override
