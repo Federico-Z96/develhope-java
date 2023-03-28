@@ -27,7 +27,7 @@ public class Es13Debugger {
     private static int calculateFactorial(int number) {
         //Fix this code
         int result = 1;
-        for (int i = number; i >= 1; i ++) {
+        for (int i = number; i >= 1; i --) {
             result = result * i;
         }
         return result;
@@ -53,7 +53,7 @@ public class Es13Debugger {
 
         String reversed = "";
         for (int i = input.length() - 1; i >= 0; i--) {
-            reversed += reversed + input.charAt(i);
+            reversed += input.charAt(i);
         }
         return reversed;
     }
